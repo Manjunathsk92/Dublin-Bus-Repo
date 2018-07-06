@@ -1,4 +1,5 @@
 import React from "react"
+import Test1 from "./Test1"
 
 export default class Nav extends React.Component {
   render() {
@@ -18,7 +19,7 @@ export default class Nav extends React.Component {
     return (
       <nav style={styles.nav}>
         <div style={styles.menu}>
-          <h2>Menu</h2>
+          <p>hi</p>
         </div>
 
       </nav>

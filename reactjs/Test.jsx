@@ -3,14 +3,10 @@ import { render } from "react-dom"
 
 import App1Container from "./containers/App1Container"
 
-class App1 extends React.Component {
+class Test extends React.Component {
     render() {
         return (
-                <App1Container> </App1Container>
-               )
+                    <App1Container> </App1Container>               )
     }
 }
-
-render(<App1/>, document.getElementById('App1'))
-
 

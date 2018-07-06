@@ -5,11 +5,17 @@ var config = require('./webpack.base.config.js')
 var ip = 'localhost'
 
 config.entry = {
+    Test1: [
+        'webpack-dev-server/client?http://' + ip + ':3000',
+        'webpack/hot/only-dev-server',
+        './reactjs/Test1',
+    ],
     App1: [
         'webpack-dev-server/client?http://' + ip + ':3000',
         'webpack/hot/only-dev-server',
         './reactjs/App1',
     ],
+
 }
 
 config.output.publicPath = 'http://' + ip + ':3000' + '/assets/bundles/'

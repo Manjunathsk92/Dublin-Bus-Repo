@@ -1,7 +1,9 @@
 import os
 from subprocess import call
-directory ='/home/student/ResearchPracticum/django/dublinBus/static/bundles/local'
-for filename in os.listdir('/home/student/ResearchPracticum/django/dublinBus/static/bundles/local'):
+directory ='/Users/manjunathsanjivkulkarni/Desktop/Dublin-Bus-Repo/dublinBus/static/bundles/local'
+for filename in os.listdir('/Users/manjunathsanjivkulkarni/Desktop/Dublin-Bus-Repo/dublinBus/static/bundles/local'):
 
     if filename[0:4] == 'App1':
         call(['mv',directory+'/'+ filename, directory+'/'+'App1.js'])
+    if filename[0:5] == 'Test1':
+        call(['mv',directory+'/'+ filename, directory+'/'+'Test1.js'])
