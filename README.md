@@ -44,7 +44,7 @@ CI=true npm test
 * **Gavin Fitzgerald** - (GavinFitzgerald94)
 * **Diarmuid Morgan** - (diarmuidmorgan)
 * **Manjunath Kulkarni** - (Manjunathsk92)
-* **Linda Smith** - ()
+* **Linda Smith** - (flannsmith)
 
 ## License
 
